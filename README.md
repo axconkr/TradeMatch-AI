@@ -1,46 +1,127 @@
-# Getting Started with Create React App
+# TradeMatch AI - Global Trade Matching Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![TradeMatch AI Logo](public/logo.svg)
 
-## Available Scripts
+AI-powered global trade matching platform that connects buyers and sellers worldwide with intelligent matching, automated consultations, and comprehensive trade process management.
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+### 🔐 Authentication System
+- **Role-based Login**: Separate portals for buyers and sellers
+- **Test Accounts**: 
+  - Buyer: `buyer` / `test123`
+  - Seller: `seller` / `test123`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 📊 Dashboard
+- **Personalized Metrics**: Role-specific KPIs and statistics
+- **Quick Actions**: Context-aware shortcuts for common tasks
+- **Real-time Notifications**: Live updates on matches and activities
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 🤖 AI Phone Consultation
+- **Global AI Agents**: 3 regional specialists (Asia, Americas, Europe)
+- **Multi-language Support**: Native language consultations
+- **Call Management**: Schedule, track, and analyze consultation results
+- **Pricing Plans**: Basic ($29), Premium ($59), Enterprise ($149)
 
-### `npm test`
+### 🔄 Trade Process Management
+- **Step-by-step Tracking**: 8-stage import/export process monitoring
+- **Progress Visualization**: Real-time progress bars and status updates
+- **Role-specific Workflows**: Customized processes for buyers vs sellers
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📄 Document Management
+- **Trade Documents**: Complete library of import/export documents
+- **Document Templates**: Ready-to-use forms and contracts
+- **Trade Dictionary**: Comprehensive glossary of trade terms (Incoterms, Payment terms, etc.)
 
-### `npm run build`
+### 📈 Market Analysis
+- **Real-time Trends**: Live market data and growth indicators
+- **Partner Recommendations**: AI-driven matching suggestions
+- **Geographic Insights**: Country-specific trade opportunities
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 👤 Profile Management
+- **Company Information**: Comprehensive business profiles
+- **Credit Scoring**: Dynamic credit evaluation system
+- **Certification Tracking**: Business verification status
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend**: React 18 + TypeScript
+- **Styling**: Custom CSS utility classes (Tailwind-inspired)
+- **Icons**: Lucide React
+- **State Management**: React Hooks
+- **Deployment**: Vercel
+- **Version Control**: GitHub
 
-### `npm run eject`
+## 📱 Responsive Design
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Mobile-first**: Optimized for all screen sizes
+- **Cross-platform**: Works seamlessly on desktop, tablet, and mobile
+- **Modern UI**: Clean, professional interface with intuitive navigation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Prerequisites
+- Node.js 16+
+- npm or yarn
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Installation
 
-## Learn More
+```bash
+# Clone the repository
+git clone https://github.com/axconkr/TradeMatch-AI.git
+cd TradeMatch-AI
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start development server
+npm start
+```
+
+### Available Scripts
+
+- `npm start` - Run development server
+- `npm run build` - Create production build
+- `npm test` - Run test suite
+- `npm run eject` - Eject from Create React App
+
+## 🌐 Live Demo
+
+Visit the live application: [TradeMatch AI](https://tradematch-iwlt0lxf7-catherinehlabs-projects.vercel.app)
+
+## 📋 Test Scenarios
+
+### Buyer Journey
+1. Login with `buyer` / `test123`
+2. View personalized dashboard with supplier recommendations
+3. Request AI consultation for supplier evaluation
+4. Track import process progress
+5. Manage trade documents and contracts
+
+### Seller Journey
+1. Login with `seller` / `test123`
+2. Explore market opportunities and buyer leads
+3. Schedule AI consultations with potential clients
+4. Monitor export process stages
+5. Update company profile and certifications
+
+## 🔮 Future Enhancements
+
+- **Backend API**: RESTful API with PostgreSQL database
+- **Real-time Chat**: Direct messaging between buyers and sellers
+- **Payment Integration**: Secure payment processing
+- **Mobile App**: Native iOS and Android applications
+- **Advanced Analytics**: Machine learning-powered insights
+- **Multi-language Support**: Full internationalization
+
+## 📞 Support
+
+For support and inquiries, please create an issue in the GitHub repository.
+
+## 📄 License
+
+© 2025 Phillip.Hong. All rights reserved.
+
+---
+
+**Built with ❤️ using Claude Code**
