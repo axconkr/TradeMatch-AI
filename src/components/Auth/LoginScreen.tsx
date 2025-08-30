@@ -161,7 +161,7 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
         </div>
 
         <div className="text-center mt-6 text-gray-600 text-sm">
-          <p>© 2024 TradeMatch AI. All rights reserved.</p>
+          <p>© 2025 Phillip.Hong. All rights reserved.</p>
         </div>
       </div>
     </div>
