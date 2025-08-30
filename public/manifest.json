@@ -1,7 +1,13 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "TradeMatch AI",
+  "name": "TradeMatch AI - Global Trade Matching Platform",
+  "description": "AI-powered global trade matching platform connecting buyers and sellers worldwide",
   "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
@@ -20,6 +26,8 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#2563eb",
+  "background_color": "#f8fafc",
+  "categories": ["business", "productivity", "finance"],
+  "lang": "ko"
 }

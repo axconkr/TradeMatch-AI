@@ -1,0 +1,55 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <circle cx="256" cy="256" r="256" fill="url(#bgGradient)"/>
+  
+  <!-- Trade connection symbol -->
+  <g transform="translate(156, 156)">
+    <!-- Left building/buyer -->
+    <rect x="20" y="80" width="60" height="120" rx="8" fill="white" opacity="0.9"/>
+    <rect x="30" y="100" width="12" height="12" fill="#2563eb"/>
+    <rect x="50" y="100" width="12" height="12" fill="#2563eb"/>
+    <rect x="30" y="120" width="12" height="12" fill="#2563eb"/>
+    <rect x="50" y="120" width="12" height="12" fill="#2563eb"/>
+    <rect x="30" y="140" width="12" height="12" fill="#2563eb"/>
+    <rect x="50" y="140" width="12" height="12" fill="#2563eb"/>
+    
+    <!-- Right building/seller -->
+    <rect x="120" y="80" width="60" height="120" rx="8" fill="white" opacity="0.9"/>
+    <rect x="130" y="100" width="12" height="12" fill="#2563eb"/>
+    <rect x="150" y="100" width="12" height="12" fill="#2563eb"/>
+    <rect x="130" y="120" width="12" height="12" fill="#2563eb"/>
+    <rect x="150" y="120" width="12" height="12" fill="#2563eb"/>
+    <rect x="130" y="140" width="12" height="12" fill="#2563eb"/>
+    <rect x="150" y="140" width="12" height="12" fill="#2563eb"/>
+    
+    <!-- Connection arrows -->
+    <path d="M85 130 L115 120 L115 125 L130 125 L130 135 L115 135 L115 140 Z" fill="url(#accentGradient)"/>
+    <path d="M115 170 L85 160 L85 165 L70 165 L70 175 L85 175 L85 180 Z" fill="url(#accentGradient)"/>
+    
+    <!-- AI connection point -->
+    <circle cx="100" cy="150" r="15" fill="url(#accentGradient)"/>
+    <text x="100" y="156" text-anchor="middle" fill="white" font-size="16" font-family="Arial, sans-serif" font-weight="bold">AI</text>
+  </g>
+  
+  <!-- Corner AI indicators -->
+  <circle cx="80" cy="80" r="12" fill="#10b981" opacity="0.8"/>
+  <circle cx="432" cy="80" r="12" fill="#10b981" opacity="0.8"/>
+  <circle cx="80" cy="432" r="12" fill="#10b981" opacity="0.8"/>
+  <circle cx="432" cy="432" r="12" fill="#10b981" opacity="0.8"/>
+  
+  <!-- Company name -->
+  <text x="256" y="400" text-anchor="middle" fill="white" font-size="36" font-family="Arial, sans-serif" font-weight="bold">TradeMatch</text>
+  <text x="256" y="440" text-anchor="middle" fill="#fbbf24" font-size="24" font-family="Arial, sans-serif" font-weight="bold">AI</text>
+</svg>
